@@ -6,6 +6,10 @@ Reproduce ResNet-v2 using MXNet
 Run `./train.sh` to train a ResNet152 model on 8 threads (follow instructions in this README for image preprocessing). Change arguments
 as needed depending on your use case.
 
+To run inference, see `predict/README.md`.
+
+Logs from runs by the MXNet maintainers are in `prerun_logs/`. Logs run by Stanford DAWN are in `logs/`.
+
 ## Requirements
 - Install [MXNet](http://mxnet.io/get_started/install.html) on a machine with CUDA GPU, and it's better also installed with [cuDNN v5](https://developer.nvidia.com/cudnn)
 - Please fix the randomness if you want to train your own model and using this [pull request](https://github.com/dmlc/mxnet/pull/3001/files)
