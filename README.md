@@ -6,7 +6,7 @@ Reproduce ResNet-v2 using MXNet
 Run `./train.sh` to train a ResNet152 model on 8 threads (follow instructions in this README for image preprocessing). Change arguments
 as needed depending on your use case.
 
-To run inference, see `predict/README.md`.
+To run inference, see `inference/README.md`.
 
 Logs from runs by the MXNet maintainers are in `prerun_logs/`. Logs run by Stanford DAWN are in `logs/`.
 
